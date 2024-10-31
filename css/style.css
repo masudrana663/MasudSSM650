@@ -1,0 +1,170 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1400px;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+	.title{
+		text-align: center;
+		color: red;
+		font-size: 50px;
+		margin: 30px 0px 30px;
+		
+	}
+.green{
+	width: 600px;
+	height: 400px;
+	background-color: green;
+	position: relative;
+	top: 85px;
+	left: 350px;
+}
+.red{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	background: red;
+	position: absolute;
+	transform:translate(160px, 85px);
+	top: 5px;
+	left: 10px;
+/*	z-index: 1;*/
+}
+
+	.fb-share{
+		width: 140px;
+		position: fixed;
+		top: 30%;
+		right: -100px;
+		transition: 1s ease-in;
+	}
+	.fb-share:hover{
+		right: 2px;
+		cursor: pointer;
+	}
+	.in-share{
+		width: 140px;
+		position: fixed;
+		top: 35%;
+		right: -100px;
+		transition: 1s ease-in;
+	}
+	.in-share:hover{
+		right: 2px;
+		cursor: pointer;
+	}
+	.inst-share{
+		width: 140px;
+		position: fixed;
+		top: 40%;
+		right: -100px;
+		transition: 1s ease-in;
+	}
+	.inst-share:hover{
+		right: 2px;
+		cursor: pointer;
+	}
+	.tk-share{
+		width: 140px;
+		position: fixed;
+		top: 45%;
+		right: -100px;
+		transition: 1s ease-in;
+	}
+	.tk-share:hover{
+		right: 2px;
+		cursor: pointer;
+	}
+	.tw-share{
+		width: 140px;
+		position: fixed;
+		top: 50%;
+		right: -100px;
+		transition: 1s ease-in;
+	}
+	.tw-share:hover{
+		right: 2px;
+		cursor: pointer;
+	}
+	.x-share{
+		width: 140px;
+		position: fixed;
+		top: 55%;
+		right: -100px;
+		transition: 1s ease-in;
+	}
+	.x-share:hover{
+		right: 2px;
+		cursor: pointer;
+	}
+	.you-share{
+		width: 140px;
+		position: fixed;
+		top: 60%;
+		right: -100px;
+		transition: 1s ease-in;
+	}
+	.you-share:hover{
+		right: 2px;
+		cursor: pointer;
+	}
+	.social-media{
+		width: 100%;
+		padding: 100px 0px;
+		margin: 730px 0px 730px;
+		background: url("../imgaes/379.jpg") center no-repeat;
+		background-size: cover;
+		/*backgroung-repeat: no-repeat;
+		background-position: center;*/
+	}
+	.social-media-icons{
+		width: 100%;
+		text-align: center;
+	}
+	.social-media-icons li{
+		list-style: none;
+		display: inline-block;
+	}
+	.social-media-icons li a{
+		display: block;
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+		border-radius: 100%;
+		text-align: center;
+		background: #08c;
+		color: #fff;
+		font-size: 45px;
+		margin: 0px 15px;
+		transition: 1s ease-in;
+	}
+	.social-media-icons li a:hover{
+		background: #000;
+		color: #08c;
+	}
+
+/*.yellow{
+	width: 230px;
+	height: 230px;
+	border-radius: 100%;
+	background: yellow;
+	position: absolute;
+	top: 100px;
+	left: 190px;
+	z-index: 0;
+}*/
